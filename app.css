@@ -1,0 +1,156 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+     margin:0;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+line-height: 1.6;
+background: #ffd7ba;
+    }
+.main_title{
+    margin: 0 auto;
+    text-align: center;
+    color:#606c38;
+}
+.about_me_pic{
+    width:150px;
+    height:250px;
+    border-radius: 45%;
+    float:none;   
+    margin: 10px 10px 10px 600px;
+    
+   
+}
+#con{
+    height: 75%;
+    width:75%;
+}
+img{
+     display:inline;
+    /* float:right; 
+    max-width: 100%;
+    height: 100px;
+    width: 100px; */
+}
+h1,h2,h3{
+    line-height: 1.1;
+    margin: 0;
+}
+.section_intro_title{
+/*     //margin: 0 auto; */
+   color: #ba181b;
+   text-align: center;
+   font-weight: 700;
+}
+.info_bout_me{
+ 
+    width: auto;
+    text-align: center;
+}
+.vit-logo{
+    margin-top: 50px;
+    display:inline;
+    /* float:right; */
+    max-width: 100%;
+    height: 100px;
+    width: 100px;
+}
+.interests{
+
+   width: auto;
+}
+.into_h3{
+    position: relative;
+  margin-right: 1rem;
+}
+.into_h3::after{
+    content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  height: 7px;
+  width: 100%;
+  border: solid 2px #cb1829;
+  border-color: #cb1829 transparent transparent transparent;
+  border-radius: 50%;
+}
+.int_para{
+    font-weight: 900;
+    color:#00b4d8;}
+    .section_info_section_about{
+        font-weight: 900;
+    color:#00b4d8;
+        
+    }
+    .navbar{
+        width: 100%;
+        height: 60px;
+        background: #090f1b;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 0 25px;
+    }
+    .navbar .inner_navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .navbar .hamburger{
+        display: none;
+    }
+    
+    .navbar .logo a{
+        font-weight: 700;
+        font-size: 24px;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+    
+    .navbar .logo a span{
+        color: #5bd485;
+    }
+    
+    .navbar .menu ul{
+        display: flex;
+    }
+    
+    .navbar .menu ul li a{
+        width: 120px;
+        margin-right: 10px;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        border-radius: 25px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 2px;
+        transition: all 0.2s ease;
+    }
+    
+    .navbar .menu ul li:last-child a{
+        margin-right: 0;	
+    }
+    
+    .navbar .menu ul li a:hover,
+    .navbar .menu ul li a.active{
+        background: #5bd485;
+    }
+    #insta_logo{
+        width: 100px;
+        height: 100px;
+    
+}
+
+#fb_logo{
+width: 100px;
+height:100px;
+
+}
+
